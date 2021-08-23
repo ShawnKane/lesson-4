@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: rgba(4,219,239,1);
+	background: -moz-linear-gradient(-45deg, rgba(4,219,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(4,219,239,1)), color-stop(100%, rgba(3,120,253,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(4,219,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(4,219,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(4,219,239,1) 0%, rgba(3,120,253,1) 100%);
+	background: linear-gradient(135deg, rgba(4,219,239,1) 0%, rgba(3,120,253,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04dbef', endColorstr='#0378fd', GradientType=1 );
+	color: white;
+}
+
+h1,h2,h3 {
+	font-family: Ubuntu;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.container {
+	width: 1171px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 62px;
+}
+.wrapper {
+	display: flex;
+}
+
+.offer {
+	margin-top: 150px;
+}
+
+.header-title {
+	width: 560px;
+	font-size: 37px;
+}
+
+.header-title span {
+	font-size: 59px;
+}
+
+.header-text {
+	width: 400px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+.btn {
+	background: #FFD429;
+	font-family: Montserrat;
+	font-weight: black;
+	font-size: 15px;
+	color: black;
+	display: block;
+	padding: 25px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 222px;
+}
+
+.section-main {
+	padding-top: 110px;
+	padding-bottom: 120px;
+}
+
+.what-awaits {
+	margin-top: 170px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title-waiting {
+	font-size: 19px;
+	text-align: center;
+}
+
+.text-waititng {
+	font-family: Ubuntu;
+	font-weight: 400;
+	font-size: 15px;
+	width: 290px;
+	text-align: center;
+}
+
+.icon-waiting {
+	padding-left: 100px;
+}
+
+.bg-form {
+	background: #ECF3F8;
+	padding: 100px 0;
+}
+
+.form {
+	margin-top: 56px;
+}
+
+.input {
+	font-family: Ubuntu;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	width: 312px;
+	height: 50px;
+	margin-left: 415px;
+	margin-bottom: 15px;
+	padding-left: 25px;
+}
+
+.button {
+	margin-left: 415px;
+	width: 343px;
+	border: 0; 
+	cursor: pointer;
+}
+
+footer {
+	margin-top: -15px;
+	margin-bottom: -20px;
+	background: #164d7a;
+}
+
+.footer-text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	padding: 60px 0 55px 0;
+}
